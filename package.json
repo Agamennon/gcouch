@@ -1,0 +1,34 @@
+{
+  "name": "gcouch",
+  "version": "0.1.0",
+  "author": {
+    "name": "Guilherme Guerchmann",
+    "email": "gui@guerch.net",
+    "url": "http://www.guerch.net"
+  },
+  "description": "Yet another couchdb driver",
+  "keywords": [
+    "node",
+    "couchdb",
+    "driver",
+    "multipart"
+  ],
+  "main": "src/gcouch",
+
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "dependencies": {
+    "forever-agent": "0.5.x",
+    "q":"*",
+    "extend": "*"
+  },
+  "devDependencies": {
+      "jasmine-node":"*"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Agamennon/gcouch.git"
+  }
+}
