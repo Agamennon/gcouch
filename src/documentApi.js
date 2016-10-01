@@ -97,6 +97,9 @@ var documentApi = function(dbName,relax){
         cfg = {};
         cfg.method = 'POST';
         cfg.data = {keys:docKeys};
+        cfg.headers = {
+         'Content-Type':'application/json'
+         }
         params = extend(true,{},params);
         if (!('include_docs' in params)){
             params['include_docs'] = true;
